@@ -1,0 +1,21 @@
+lamb= 2
+u = 3 
+
+incisoa = lamb / (u - lamb)
+print("Número promedio de pacientes en el sistema es: " + str(incisoa))
+
+
+incisob = 1 / (u - lamb)
+print("Tiempo total que consume un paciente en el consultorio: " + str(incisob))
+
+incisoc = lamb/u
+print("Factor de uso del sistema: " + str(incisoc))
+
+incisod = pow(lamb, 2) / u * (u-lamb)
+print("Número promedio de pacientes haciendo fila: " + str(incisod))
+
+incisoe = 1 - incisoc
+print("Probabilidad que el consultorio esté vacío: " + str(incisoe))
+
+incisof = (1-incisoc) * pow(incisoc, 2)
+print("Probabilidad de que se encuentren 2 pacientes en el sistema: " + str(incisof))
